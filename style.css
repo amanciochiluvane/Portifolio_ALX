@@ -2,12 +2,19 @@
     margin: 0;
     padding: 0;
 }
+body{
+    height: 100vh;
+    background-image: url(images/16252026_rm373batch9-029.jpg);
+    background-size: cover;
+    
+}
 
 header{
     background-color: black;
     color: antiquewhite;
-    height: 100px;
+    height: 110px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
     
 }
 header>ul{
@@ -17,10 +24,132 @@ header>ul{
 }
 .namelogo{
     margin-right:180px ;
+
 }
 .Amancio{
 font-size: x-large;
 }
 .Chiluvane{
-    color: rgb(89, 13, 161);
+    color: rgb(163, 75, 246);
+    font-size: x-large;
 }
+header>ul>li>p>a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+header>ul>li>p>a:hover{
+    color: rgb(82, 9, 150);
+}
+.content{
+    width: 250px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: antiquewhite;
+    background-color: rgba(0, 0, 0, 0.888);
+    display: block;
+    margin:auto;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+.content>h1{
+    color:rgb(163, 75, 246);
+    margin-bottom: 20px;
+}
+.content>a{
+    text-decoration: none;
+}
+.content>a>button:hover{
+    color:rgb(163, 75, 246) ;
+    cursor: pointer;
+}
+.content>a>button{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+    margin:auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 50px;
+    padding: 10px;
+    font-size: medium;
+    color: antiquewhite;
+    background-color: rgb(82, 9, 150);
+ 
+}
+.title{
+    display: flex;
+}
+.title1{
+    height: 200px;
+    background-color: black;
+    width: 50vw;
+}
+.title2{
+    height: 200px;
+    background-color:white;
+    width: 50vw;
+    text-align:right;
+}
+.balloon-box {
+    width: 281px;
+    height: 53px;
+    color: antiquewhite;
+    background: rgb(98, 30, 162);
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 26.5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .balloon-box::after {
+    content: "";
+    display: block;
+    width: 17px;
+    height: 17px;
+    border-radius: 100%;
+    background: rgb(98, 30, 162);
+    position: absolute;
+    bottom: -7px;
+    right: 30px;
+  }
+  .balloon-box::before {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background: rgb(98, 30, 162);
+    position: absolute;
+    right: 15px;
+    bottom: -21px;
+  }
+  .balloon-box {
+    filter: drop-shadow(0 0 3px rgba(0,0,0,.5));
+  }
+  .title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .title>.title1>h1, .title>.title2>h1{
+    color: rgb(163, 75, 246);
+    text-shadow: 1px 1px 1px black;
+  }
+  .title1{
+    color: antiquewhite;
+    padding: 10px;
+  }
+  .title2{
+    padding: 10px;
+  }
+  footer{
+    margin-top: 70px;
+    background-color: black;
+    color: antiquewhite;
+    padding: 10px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
