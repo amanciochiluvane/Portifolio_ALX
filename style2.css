@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+body{
+    height: 100vh;
+    background-image: url(images/16252026_rm373batch9-029.jpg);
+    background-size: cover;
+    
+}
+
+header{
+    background-color: black;
+    color: antiquewhite;
+    height: 110px; 
+    width: 100%;  
+}
+header>ul{
+    display: flex; 
+    gap: 30px;
+    padding: 30px;
+}
+.namelogo{
+    margin-right:30px ;
+}
+.Amancio{
+font-size: x-large;
+}
+.Chiluvane{
+    color: rgb(163, 75, 246);
+    font-size: x-large;
+}
+header>ul>li>p>a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+header>ul>li>p>a:hover{
+    color: rgb(82, 9, 150);
+}
+.image{
+    background-color: rgba(25, 25, 25, 0.833);
+    height: 270px;
+    padding-top: 20px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.image>img{
+    display: block;
+    height: 250px;
+    margin:auto;
+    border-radius: 15px;
+}
+.content{
+    background-color: rgba(0, 0, 0, 0.791);
+    color: antiquewhite;
+    margin-top: 120px;
+    padding: 20px;
+    border-radius: 15px;
+    
+    
+}
+.content>h1{
+    background-color: black;
+    width: max-content;
+    margin-left: 20px;
+    margin-top: 20px;
+    color:rgb(118, 49, 182);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 1px 1px 1px rgb(50, 47, 47);
+}
+.content>p>a{
+    color: rgb(163, 75, 246);
+    text-decoration: none;
+}
+footer{
+    margin-top: 70px;
+    background-color: black;
+    color: antiquewhite;
+    padding: 10px;
+    text-align: center;
+  }
