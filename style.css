@@ -1,6 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 body{
     height: 100vh;
@@ -12,10 +15,8 @@ body{
 header{
     background-color: black;
     color: antiquewhite;
-    height: 110px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-   
-    
+    height: 110px; 
+    width: 100%;  
 }
 header>ul{
     display: flex; 
@@ -23,7 +24,7 @@ header>ul{
     padding: 30px;
 }
 .namelogo{
-    margin-right:180px ;
+    margin-right:120px ;
 
 }
 .Amancio{
@@ -42,7 +43,6 @@ header>ul>li>p>a:hover{
 }
 .content{
     width: 250px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: antiquewhite;
     background-color: rgba(0, 0, 0, 0.888);
     display: block;
@@ -64,7 +64,6 @@ header>ul>li>p>a:hover{
     cursor: pointer;
 }
 .content>a>button{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: block;
     margin:auto;
     margin-top: 20px;
@@ -96,7 +95,6 @@ header>ul>li>p>a:hover{
     color: antiquewhite;
     background: rgb(98, 30, 162);
     font-size: larger;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-radius: 26.5px;
     text-align: center;
     display: flex;
@@ -132,7 +130,6 @@ header>ul>li>p>a:hover{
     filter: drop-shadow(0 0 3px rgba(0,0,0,.5));
   }
   .title{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   .title>.title1>h1, .title>.title2>h1{
     color: rgb(163, 75, 246);
@@ -151,5 +148,4 @@ header>ul>li>p>a:hover{
     color: antiquewhite;
     padding: 10px;
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
