@@ -148,3 +148,11 @@ header>ul>li>p>a:hover{
     padding: 10px;
     text-align: center;
   }
+
+  @media (min-width:1260px){
+    footer{
+      position: fixed;
+      bottom: 0px;
+      
+  }
+  }
